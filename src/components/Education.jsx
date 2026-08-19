@@ -36,18 +36,18 @@ const Education = () => {
         <div className="mt-24 grid md:grid-cols-3 gap-10">
           <div className="glass-card p-10 flex flex-col justify-between aspect-square">
             <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Certification</span>
-            <p className="text-2xl font-bold text-white tracking-tight">Java Full Stack</p>
-            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Infosys Certified</p>
-          </div>
-          <div className="glass-card p-10 flex flex-col justify-between aspect-square">
-            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Certification</span>
             <p className="text-2xl font-bold text-white tracking-tight">Data Analytics</p>
-            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Microsoft & TATA</p>
+            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Microsoft · TCS · Deloitte</p>
           </div>
           <div className="glass-card p-10 flex flex-col justify-between aspect-square">
             <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Certification</span>
-            <p className="text-2xl font-bold text-white tracking-tight">Backend Eng.</p>
-            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">NPTEL Certified</p>
+            <p className="text-2xl font-bold text-white tracking-tight">Java Programming</p>
+            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Infosys · NPTEL</p>
+          </div>
+          <div className="glass-card p-10 flex flex-col justify-between aspect-square">
+            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Achievement</span>
+            <p className="text-2xl font-bold text-white tracking-tight">HACKSAGON 2026</p>
+            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Top Finalist · 2100+ Teams</p>
           </div>
         </div>
       </div>

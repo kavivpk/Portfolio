@@ -16,13 +16,13 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="px-5 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-xs font-black uppercase tracking-[0.2em] mb-8 inline-block">
-            Pre-Final Year IT Student
+            Final-Year B.Tech IT Student
           </span>
           <h1 className="text-6xl md:text-9xl font-black mb-8 leading-[0.9] tracking-tighter text-white">
             KAVIYARASU <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">V.</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-            Architecting high-performance <span className="text-white font-medium">Java backends</span> and distilling complex data into actionable <span className="text-white font-medium">insights</span>.
+            Building <span className="text-white font-medium">full-stack AI systems</span> and turning complex data into actionable <span className="text-white font-medium">insights</span>.
           </p>
         </motion.div>
 
@@ -36,7 +36,7 @@ const Hero = () => {
             Explore My Work
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
-          <a href="/resume.pdf" className="text-white font-bold px-8 py-3 rounded-xl border border-white/10 hover:bg-white/5 transition-colors flex items-center gap-3">
+          <a href="/Kaviyarasu_V_Resume.pdf" className="text-white font-bold px-8 py-3 rounded-xl border border-white/10 hover:bg-white/5 transition-colors flex items-center gap-3">
             <Download size={20} />
             Get Resume
           </a>
@@ -46,13 +46,19 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
-          className="mt-20 flex justify-center gap-8"
+          className="mt-20 flex justify-center items-center gap-8"
         >
-          <a href="https://github.com/kavivpk" target="_blank" className="text-gray-500 hover:text-cyan-400 transition-colors">
+          <a href="https://github.com/kavivpk" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-cyan-400 transition-colors">
             <Github size={32} />
           </a>
-          <a href="https://linkedin.com/in/kaviyarasuv" target="_blank" className="text-gray-500 hover:text-cyan-400 transition-colors">
+          <a href="https://linkedin.com/in/kaviyarasuv" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-cyan-400 transition-colors">
             <Linkedin size={32} />
+          </a>
+          <a href="https://leetcode.com/u/kavivpk/" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-cyan-400 transition-colors text-xs font-black uppercase tracking-widest">
+            LeetCode
+          </a>
+          <a href="https://www.geeksforgeeks.org/profile/kavivpk" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-cyan-400 transition-colors text-xs font-black uppercase tracking-widest">
+            GFG
           </a>
         </motion.div>
       </div>

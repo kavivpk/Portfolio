@@ -38,10 +38,10 @@ const About = () => {
             </h2>
             <div className="space-y-8 text-gray-400 text-xl leading-relaxed font-light">
               <p>
-                I am a passionate <span className="text-white font-medium">B.Tech IT student</span> dedicated to mastering the art of software engineering. My focus lies in building robust backends with Java and Spring Boot while leveraging Data Analytics to drive meaningful solutions.
+                I am a passionate <span className="text-white font-medium">B.Tech IT student</span> with hands-on experience in data analytics, full-stack development, and AI applications. My focus lies in building intelligent systems using React, Python, FastAPI, and Spring Boot — from ATS-powered resume analyzers to RAG-based AI chatbots.
               </p>
               <p>
-                With a background in both <span className="text-white font-medium">multi-national corporate environments</span> (Infosys) and <span className="text-white font-medium">dynamic startups</span>, I bring a versatile perspective to every project I touch.
+                Interned at <span className="text-white font-medium">Infosys Springboard</span> as a Software Dev Intern and <span className="text-white font-medium">CodeAlpha</span> as a Data Analytics Intern. A national-level hackathon finalist among 2100+ teams, certified in Data Analytics by Microsoft, TCS, and Deloitte.
               </p>
             </div>
             
@@ -51,8 +51,12 @@ const About = () => {
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-2">Internships</p>
               </div>
               <div>
+                <p className="text-4xl font-black text-white">04+</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-2">Projects Built</p>
+              </div>
+              <div>
                 <p className="text-4xl font-black text-white">05+</p>
-                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-2">Project Wins</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-2">Certifications</p>
               </div>
             </div>
           </motion.div>

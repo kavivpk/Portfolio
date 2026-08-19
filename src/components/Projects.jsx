@@ -48,23 +48,37 @@ const ProjectCard = ({ title, desc, tech, github, url, index }) => (
 const Projects = () => {
   const projects = [
     {
+      title: "SmartHire AI",
+      desc: "Multi-agent AI recruitment platform for campus placements. Features ATS resume scoring, NLP-based skill gap detection, AI Mock Interview system with real-time feedback, and live interview monitoring via Socket.io.",
+      tech: ["React", "FastAPI", "Python", "MongoDB"],
+      github: "https://github.com/kavivpk",
+      url: "#"
+    },
+    {
+      title: "Learning Analytics",
+      desc: "Full-stack web app tracking quiz scores, time-on-task, and engagement for 500+ student records. Python-Pandas pipeline with MySQL identifies recurring difficulty topics to guide curriculum improvements.",
+      tech: ["React", "Flask", "MySQL", "Pandas"],
+      github: "https://github.com/kavivpk",
+      url: "#"
+    },
+    {
+      title: "AI PDF Chatbot",
+      desc: "Upload any PDF and get context-aware answers in under 2 seconds. Built with a RAG pipeline using FastAPI, FAISS vector search, HuggingFace embeddings, and Google Gemini with real-time response streaming.",
+      tech: ["React", "FastAPI", "RAG", "Gemini"],
+      github: "https://github.com/kavivpk",
+      url: "#"
+    },
+    {
+      title: "Financial Dashboard",
+      desc: "Interactive Power BI dashboard with 12 KPI cards, DAX measures, and slicers analysing Financial and HR metrics across 4 departments. Automated data refresh pipelines reduced manual reporting time by 60%.",
+      tech: ["Power BI", "DAX", "Excel"],
+      github: "https://github.com/kavivpk",
+      url: "#"
+    },
+    {
       title: "Study Group Finder",
-      desc: "A full-stack collaborative ecosystem for students. Built with a focus on real-time interactions and secure data handling.",
-      tech: ["Spring Boot", "Java", "SQL"],
-      github: "https://github.com/kavivpk",
-      url: "#"
-    },
-    {
-      title: "Financial Engine",
-      desc: "Advanced data visualization engine built for organizational KPIs. Transforming raw financial data into interactive narratives.",
-      tech: ["Power BI", "Excel", "DAX"],
-      github: "https://github.com/kavivpk",
-      url: "#"
-    },
-    {
-      title: "Tactile Calculator",
-      desc: "A minimalist web calculator focusing on precise arithmetic and responsive UX. Built for speed and reliability.",
-      tech: ["JS", "CSS", "HTML"],
+      desc: "Collaborative platform built during Infosys internship using Spring Boot and MySQL. Supports 200+ students finding and joining study groups by subject and availability, with JWT authentication and WebSocket.",
+      tech: ["Spring Boot", "MySQL", "JWT"],
       github: "https://github.com/kavivpk",
       url: "#"
     }

@@ -17,9 +17,9 @@ const SkillCard = ({ name, items }) => (
 
 const Skills = () => {
   const data = [
-    { name: "Backend Core", items: ["Java (Full Stack)", "Spring Boot", "Spring JPA", "SQL"] },
-    { name: "Development Tools", items: ["Git & GitHub", "VS Code", "Maven", "REST APIs"] },
-    { name: "Data & Frontend", items: ["Power BI", "React.js", "Javascript", "Tailwind CSS"] }
+    { name: "AI & Data", items: ["Python (Pandas, NumPy)", "Scikit-learn / spaCy", "Power BI & DAX", "SQL & MySQL"] },
+    { name: "Backend & APIs", items: ["FastAPI (Python)", "Spring Boot (Java)", "Node.js", "REST APIs & JWT"] },
+    { name: "Frontend & Tools", items: ["React.js", "Socket.io", "Git & GitHub", "Docker & AWS"] }
   ];
 
   return (

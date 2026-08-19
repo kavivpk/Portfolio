@@ -12,6 +12,8 @@ const Footer = () => {
         <div className="flex gap-12">
           <a href="https://linkedin.com/in/kaviyarasuv" className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-white transition-colors">LinkedIn</a>
           <a href="https://github.com/kavivpk" className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-white transition-colors">GitHub</a>
+          <a href="https://leetcode.com/u/kavivpk/" target="_blank" className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-white transition-colors">LeetCode</a>
+          <a href="https://www.geeksforgeeks.org/profile/kavivpk" target="_blank" className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-white transition-colors">GFG</a>
           <a href="mailto:kaviyarasu4980@gmail.com" className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-white transition-colors">Email</a>
         </div>
 

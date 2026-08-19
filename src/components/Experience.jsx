@@ -26,16 +26,22 @@ const ExperienceCard = ({ company, role, period, details, index }) => (
 const Experience = () => {
   const experiences = [
     {
-      company: "Infosys Springboot",
-      role: "Backend Intern",
-      period: "2025 Sept - Dec",
-      details: "Architected a collaborative Study Group Finder platform. Implemented secure user authentication and optimized database interactions for high-performance retrieval."
+      company: "Infosys Springboard",
+      role: "Software Development Intern",
+      period: "Sep – Dec 2025",
+      details: "Built a Study Group Finder platform using Spring Boot and MySQL, supporting 200+ students. Optimised SQL queries reducing response time by ~40%, and implemented role-based access control (RBAC) for student and admin permissions in a 6-member Agile team."
+    },
+    {
+      company: "CodeAlpha",
+      role: "Data Analytics Intern",
+      period: "Jan 2026",
+      details: "Designed an interactive Power BI dashboard with 12 KPI cards, DAX measures, and slicers to analyse Financial and HR metrics across 4 departments. Reduced manual report generation time by 60% through automated data refresh pipelines. Received LOR upon successful delivery."
     },
     {
       company: "Fantastic Solution",
-      role: "Frontend Intern",
-      period: "2024 - 2025",
-      details: "Crafted high-fidelity user interfaces and streamlined frontend workflows. Focused on responsive design and seamless user experiences across devices."
+      role: "Frontend Development Intern",
+      period: "Dec 2024 – Feb 2025",
+      details: "Developed responsive UI components using HTML, CSS, and JavaScript for data-facing web pages. Participated in Git-based collaborative workflows with code reviews and feature integration."
     }
   ];
 
