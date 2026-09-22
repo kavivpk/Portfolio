@@ -16,6 +16,7 @@ const Navbar = () => {
     { name: 'Tech', href: '#skills' },
     { name: 'Works', href: '#projects' },
     { name: 'Timeline', href: '#experience' },
+    { name: 'Certs', href: '#certifications' },
     { name: 'Contact', href: '#contact' },
   ];
 

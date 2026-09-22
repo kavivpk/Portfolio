@@ -34,19 +34,32 @@ const Education = () => {
         </div>
 
         <div className="mt-24 grid md:grid-cols-3 gap-10">
+          <a href="#certifications" className="glass-card p-10 flex flex-col justify-between aspect-square group hover:border-cyan-500/50 transition-all">
+            <span className="text-xs font-black text-slate-500 uppercase tracking-widest group-hover:text-cyan-400 transition-colors">Verified Credential</span>
+            <div>
+              <p className="text-2xl font-bold text-white tracking-tight group-hover:text-cyan-300 transition-colors">Data Analytics & AI</p>
+              <p className="text-gray-400 text-xs mt-1">Deloitte · Tata · CodeAlpha</p>
+            </div>
+            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest flex items-center gap-1">
+              View Certificates &rarr;
+            </p>
+          </a>
+          <a href="#certifications" className="glass-card p-10 flex flex-col justify-between aspect-square group hover:border-cyan-500/50 transition-all">
+            <span className="text-xs font-black text-slate-500 uppercase tracking-widest group-hover:text-cyan-400 transition-colors">Verified Credential</span>
+            <div>
+              <p className="text-2xl font-bold text-white tracking-tight group-hover:text-cyan-300 transition-colors">Software & Python</p>
+              <p className="text-gray-400 text-xs mt-1">Infosys Springboard</p>
+            </div>
+            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest flex items-center gap-1">
+              View Certificates &rarr;
+            </p>
+          </a>
           <div className="glass-card p-10 flex flex-col justify-between aspect-square">
-            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Certification</span>
-            <p className="text-2xl font-bold text-white tracking-tight">Data Analytics</p>
-            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Microsoft · TCS · Deloitte</p>
-          </div>
-          <div className="glass-card p-10 flex flex-col justify-between aspect-square">
-            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Certification</span>
-            <p className="text-2xl font-bold text-white tracking-tight">Java Programming</p>
-            <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Infosys · NPTEL</p>
-          </div>
-          <div className="glass-card p-10 flex flex-col justify-between aspect-square">
-            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">Achievement</span>
-            <p className="text-2xl font-bold text-white tracking-tight">HACKSAGON 2026</p>
+            <span className="text-xs font-black text-slate-500 uppercase tracking-widest">National Achievement</span>
+            <div>
+              <p className="text-2xl font-bold text-white tracking-tight">HACKSAGON 2026</p>
+              <p className="text-gray-400 text-xs mt-1">AI & Innovation Hackathon</p>
+            </div>
             <p className="text-cyan-500 font-black text-xs uppercase tracking-widest">Top Finalist · 2100+ Teams</p>
           </div>
         </div>
